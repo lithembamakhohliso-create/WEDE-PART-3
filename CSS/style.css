@@ -1,0 +1,227 @@
+/* =========================
+   EASY EVENT HIRE 
+   ========================= */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Navigation Bar */
+nav{
+    background-color: blue;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover{
+    color: #ffd700;
+}
+
+/* Headings */
+h1{
+    text-align: center;
+    margin-top: 30px;
+    color: #0d6efd;
+    font-size: 40px;
+}
+
+h2{
+    text-align: center;
+    margin-top: 20px;
+    color: #222;
+}
+.service-page.service-card
+/* Paragraphs */
+p{
+    text-align: center;
+    margin: 15px 20px;
+    font-size: 18px;
+}
+
+/* Lists */
+ul{
+    width: 60%;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+}
+
+ul li{
+    padding: 10px;
+    font-size: 18px;
+    border-bottom: 1px solid #ddd;
+    list-style-type: none;
+}
+
+ul li:last-child{
+    border-bottom: none;
+}
+
+/* Buttons and Links */
+a{
+    text-decoration: none;
+}
+.service-page.service-card
+body > a{
+    display: inline-block;
+    margin: 10px auto;
+    background-color: #0d6efd;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+    text-align: center;
+}
+
+body > a:hover{
+    background-color: #084298;
+}
+
+/* Center Buttons */
+body{
+    text-align: center;
+}
+
+/* Form Styling */
+form{
+    width: 50%;
+    margin: 30px auto;
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+label{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+input,
+textarea{
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+textarea{
+    resize: vertical;
+}
+
+/* Submit Button */
+button{
+    background-color: #0d6efd;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover{
+    background-color: #084298;
+}
+.service-page.service-card
+/* Contact Page Map */
+iframe{
+    width: 80%;
+    height: 400px;
+    border-radius: 10px;
+    margin: 20px auto;
+    display: block;
+}
+
+/* Footer */
+footer{
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+/* Responsive Design */
+@media(max-width: 768px){
+
+    nav a{
+        display: block;
+        margin: 10px 0;
+    }
+
+    form{
+        width: 90%;
+    }
+
+    ul{
+        width: 90%;
+    }
+
+    iframe{
+        width: 95%;
+    }
+
+    h1{
+        font-size: 30px;
+    }
+}
+/* Make the page take full height */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+/* Page layout */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Main content grows to push footer down */
+main {
+    flex: 1;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+
+
+
+
+
+  
