@@ -54,7 +54,7 @@ if (enquiryForm) {
             return;
         }
 
-        alert("Thank you! Your enquiry has been submitted.");
+        alert("Thank you! Your enquiry has been submitted .");
 
         // Optional: reset form after submission
         enquiryForm.reset();
