@@ -35,6 +35,32 @@
         <p>&copy;2026 easy event hire|All Rights Reserved</p>
         <p>Design:Lithemba Makhohliso</p>
     </footer>
+<script>
+        emailjs.init("dOFFIb1R1nJ-o2kSd");
+
+        document.getElementById("contact-form").addEventListener("submit", function(event) {
+            event.preventDefault();
+
+            emailjs.sendForm(
+                "service_gwdteri",
+                "template_7z48kl9",
+                this
+            )
+            .then(function() {
+                document.getElementById("status").innerHTML =
+                    "Message sent successfully!";
+                document.getElementById("contact-form").reset();
+            })
+            .catch(function(error) {
+                document.getElementById("status").innerHTML =
+                    "Failed to send message.";
+                console.error(error);
+            });
+        });
+    </script>
+
+</body>
+</html>
 
     
 </body>
