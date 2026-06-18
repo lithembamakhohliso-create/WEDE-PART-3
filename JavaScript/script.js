@@ -1,5 +1,5 @@
 // ===============================
-// EASY EVENT HIRE JAVASCRIPT
+// EASY EVENT HIRE 
 // ===============================
 
 // Highlight current page in navigation
