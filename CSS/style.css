@@ -159,6 +159,24 @@ iframe{
     margin: 20px auto;
     display: block;
 }
+/* Toast Notification */
+#toast {
+    visibility: hidden;
+    min-width: 250px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+    padding: 16px;
+    position: fixed;
+    z-index: 999;
+    right: 20px;
+    top: 20px;
+    font-size: 16px;
+    opacity: 0;
+    transition: opacity 0.5s, top 0.5s;
+}
+
 
 /* Footer */
 footer{
